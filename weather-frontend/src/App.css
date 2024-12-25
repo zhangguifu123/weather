@@ -1,0 +1,105 @@
+/*
+ * App.css
+ *
+ * Basic styling for background images, layout, and responsiveness.
+ * Adjust these classes or add media queries to achieve a polished,
+ * mobile-friendly design.
+ */
+
+/* Base container styling */
+.app-container {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Overlay to darken the background image (to make text readable) */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+/* Default background (if no data or unhandled condition) */
+.default-background {
+  background-color: #333; /* fallback solid colour */
+}
+
+/* Sunny background image (ensure sunny.jpg exists in public/images/) */
+.sunny-background {
+  background-image: url("/images/sunny.jpg");
+}
+
+/* Cloudy background */
+.cloudy-background {
+  background-image: url("/images/cloudy.jpg");
+}
+
+/* Rainy background */
+.rainy-background {
+  background-image: url("/images/rainy.jpg");
+}
+
+/* Search form styling */
+.search-form {
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #555;
+}
+
+/* Error message styling */
+.error-message {
+  color: #ff7373;
+  font-weight: bold;
+}
+
+/* Weather info section */
+.weather-info {
+  margin-top: 1rem;
+  text-align: left;
+}
+.weather-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Responsive design: 
+   For small screens, reduce padding, adjust text alignment, etc.
+*/
+@media (max-width: 480px) {
+  .overlay {
+    padding: 1rem;
+  }
+
+  .weather-info {
+    font-size: 0.9rem;
+  }
+}
