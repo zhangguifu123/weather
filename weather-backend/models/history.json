@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "timestamp": "2024-12-27T15:38:30.426Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "state": "New South Wales",
+    "suburb": "Sydney",
+    "dt": 1735313910,
+    "sunrise": 1735325090,
+    "sunset": 1735376895,
+    "temp": 20.59,
+    "feels_like": 20.64,
+    "pressure": 1008,
+    "humidity": 74,
+    "dew_point": 15.8,
+    "uvi": 0,
+    "clouds": 75,
+    "visibility": 10000,
+    "wind_speed": 7.72,
+    "wind_deg": 170,
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-12-27T15:38:34.370Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "state": "Western Australia",
+    "suburb": "Perth",
+    "dt": 1735313914,
+    "sunrise": 1735247439,
+    "sunset": 1735298661,
+    "temp": 17.94,
+    "feels_like": 17.96,
+    "pressure": 1019,
+    "humidity": 83,
+    "dew_point": 15.01,
+    "uvi": 0,
+    "clouds": 0,
+    "visibility": 10000,
+    "wind_speed": 5.14,
+    "wind_deg": 180,
+    "weather": [
+      {
+        "id": 800,
+        "main": "Clear",
+        "description": "clear sky",
+        "icon": "01n"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-12-27T15:38:41.966Z",
+    "query": "Parramatta",
+    "lat": -33.806969699999996,
+    "lon": 151.02136251722922,
+    "state": "New South Wales",
+    "suburb": "City of Parramatta Council",
+    "dt": 1735313921,
+    "sunrise": 1735325145,
+    "sunset": 1735376930,
+    "temp": 20.81,
+    "feels_like": 20.93,
+    "pressure": 1008,
+    "humidity": 76,
+    "dew_point": 16.43,
+    "uvi": 0,
+    "clouds": 68,
+    "visibility": 10000,
+    "wind_speed": 2.24,
+    "wind_deg": 157,
+    "wind_gust": 4.92,
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-12-27T15:38:53.226Z",
+    "query": "Mildura",
+    "lat": -34.1847265,
+    "lon": 142.1624972,
+    "state": "Victoria",
+    "suburb": "Mildura",
+    "dt": 1735313933,
+    "sunrise": 1735327211,
+    "sunset": 1735379117,
+    "temp": 13.93,
+    "feels_like": 12.87,
+    "pressure": 1012,
+    "humidity": 57,
+    "dew_point": 5.56,
+    "uvi": 0,
+    "clouds": 39,
+    "visibility": 10000,
+    "wind_speed": 3.11,
+    "wind_deg": 192,
+    "wind_gust": 5.89,
+    "weather": [
+      {
+        "id": 802,
+        "main": "Clouds",
+        "description": "scattered clouds",
+        "icon": "03n"
+      }
+    ]
+  },
+  {
+    "timestamp": "2024-12-27T15:39:12.545Z",
+    "query": "Manly",
+    "lat": -33.7971937,
+    "lon": 151.2879845,
+    "state": "New South Wales",
+    "suburb": "Manly",
+    "dt": 1735313952,
+    "sunrise": 1735325082,
+    "sunset": 1735376864,
+    "temp": 20.98,
+    "feels_like": 21.07,
+    "pressure": 1008,
+    "humidity": 74,
+    "dew_point": 16.17,
+    "uvi": 0,
+    "clouds": 75,
+    "visibility": 10000,
+    "wind_speed": 7.72,
+    "wind_deg": 170,
+    "weather": [
+      {
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04n"
+      }
+    ]
+  }
+]
