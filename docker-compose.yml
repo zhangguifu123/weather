@@ -1,0 +1,37 @@
+version: "3.8" # Specifies the Docker Compose version
+
+services:
+  # Backend Service
+  weather-backend:
+    build:
+      context: ./weather-backend # Path to the backend Dockerfile
+      dockerfile: Dockerfile # Dockerfile name
+    image: your-dockerhub-username/weather-backend:latest # Docker image name
+    container_name: weather-backend # Container name
+    ports:
+      - "8080:8080" # Maps host port 8080 to container port 8080
+    environment:
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY} # Environment variable
+      - GOOGLE_PLACES_API_KEY=${GOOGLE_PLACES_API_KEY} # Environment variable
+      - NODE_ENV=production # Environment variable
+    restart: always # Automatically restart the container if it stops
+    networks:
+      - weather-network # Connects to the specified Docker network
+
+  # Frontend Service
+  weather-frontend:
+    build:
+      context: ./weather-frontend # Path to the frontend Dockerfile
+      dockerfile: Dockerfile # Dockerfile name
+    image: your-dockerhub-username/weather-frontend:latest # Docker image name
+    container_name: weather-frontend # Container name
+    ports:
+      - "3000:80" # Maps host port 3000 to container port 80 (Nginx)
+    restart: always # Automatically restart the container if it stops
+    networks:
+      - weather-network # Connects to the specified Docker network
+
+# Define Docker Networks
+networks:
+  weather-network:
+    driver: bridge # Uses the default bridge network driver
