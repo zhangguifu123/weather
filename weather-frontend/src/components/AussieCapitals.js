@@ -24,7 +24,7 @@ const AUSSIE_CAPITALS = [
 ];
 
 // Backend API endpoint for fetching weather data
-const BACKEND_WEATHER = 'http://weather-backend:8080/api/weather';
+const BACKEND_WEATHER = 'http://localhost:8080/api/weather';
 
 // Base URL for OpenWeather icons
 const OPENWEATHER_ICON_URL = 'http://openweathermap.org/img/wn/';

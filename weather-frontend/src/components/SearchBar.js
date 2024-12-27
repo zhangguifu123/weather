@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
-const AUTOCOMPLETE_URL = 'http://weather-backend:8080/api/maps/autocomplete';
-const WEATHER_URL = 'http://weather-backend:8080/api/weather';
+const AUTOCOMPLETE_URL = 'http://localhost:8080/api/maps/autocomplete';
+const WEATHER_URL = 'http://localhost:8080/api/weather';
 
 export default function SearchBar({ onWeatherFetched }) {
   const [inputValue, setInputValue] = useState('');

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const HISTORY_URL = 'http://weather-backend:8080/api/history';
+const HISTORY_URL = 'http://localhost:8080/api/history';
 
 /**
  * HistoryList Component
