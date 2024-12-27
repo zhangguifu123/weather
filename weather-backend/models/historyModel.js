@@ -1,26 +1,34 @@
-/**
- * historyModel.js
- * 
- * 读取/写入搜索记录到 JSON 文件 (history.json)
- */
-
-const fs = require('fs');
+const fs = require('fs').promises;
 const path = require('path');
 
 const historyFilePath = path.join(__dirname, 'history.json');
 
 async function loadHistory() {
-  if (!fs.existsSync(historyFilePath)) {
-    return [];
+  try {
+    const data = await fs.readFile(historyFilePath, 'utf-8');
+    return JSON.parse(data);
+  } catch (err) {
+    if (err.code === 'ENOENT') {
+      return [];
+    } else {
+      throw err;
+    }
   }
-  const data = fs.readFileSync(historyFilePath, 'utf-8');
-  return JSON.parse(data);
 }
 
 async function saveSearch(record) {
   const history = await loadHistory();
   history.push(record);
-  fs.writeFileSync(historyFilePath, JSON.stringify(history, null, 2), 'utf-8');
+  
+    // 将新记录插入到数组的最前面
+    history.unshift(record);
+  
+    // 确保只保留最新的5条记录
+    if (history.length > 5) {
+      history.pop(); // 移除最后一条记录（最旧的记录）
+    }
+  
+  await fs.writeFile(historyFilePath, JSON.stringify(history, null, 2), 'utf-8');
 }
 
 module.exports = {
