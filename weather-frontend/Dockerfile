@@ -25,5 +25,7 @@ COPY --from=build /app/build /usr/share/nginx/html
 # Expose port 3000 for the frontend service
 EXPOSE 3000
 
+EXPOSE 80
+
 # Command to run Nginx in the foreground
 CMD ["nginx", "-g", "daemon off;"]
