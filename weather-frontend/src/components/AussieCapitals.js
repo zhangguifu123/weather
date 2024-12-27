@@ -1,13 +1,3 @@
-// AussieCapitals.js
-
-/**
- * AussieCapitals Component
- *
- * This React component fetches and displays the current weather information
- * for a list of Australian capital cities. It shows temperature, humidity,
- * wind details, weather description, and corresponding weather icons.
- */
-
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
@@ -24,110 +14,92 @@ const AUSSIE_CAPITALS = [
 ];
 
 // Backend API endpoint for fetching weather data
-const BACKEND_WEATHER = 'http://54.206.9.239:8080/api/weather';
+const BACKEND_WEATHER = 'http://54.206.9.239:8080/api/weather'; // Replace localhost with the backend's public IP
 
 // Base URL for OpenWeather icons
 const OPENWEATHER_ICON_URL = 'http://openweathermap.org/img/wn/';
 
+// Map of weather conditions to background colors for styling
 const weatherColorMap = {
-    Clear: 'bg-orange-400',      
-    Clouds: 'bg-gray-400',     
-    Rain: 'bg-blue-700',       
-    Drizzle: 'bg-blue-300',    
-    Thunderstorm: 'bg-purple-600',
-    Snow: 'bg-white text-black',  
-    Mist: 'bg-gray-300',        
-    Fog: 'bg-gray-400',         
-    Haze: 'bg-yellow-200',      
-    Smoke: 'bg-gray-600',       
-    default: 'bg-gray-200',     
+    Clear: 'bg-orange-400', // Sunny
+    Clouds: 'bg-gray-400', // Cloudy
+    Rain: 'bg-blue-700', // Rainy
+    Drizzle: 'bg-blue-300', // Light rain
+    Thunderstorm: 'bg-purple-600', // Stormy
+    Snow: 'bg-white text-black', // Snowy
+    Mist: 'bg-gray-300', // Misty
+    Fog: 'bg-gray-400', // Foggy
+    Haze: 'bg-yellow-200', // Hazy
+    Smoke: 'bg-gray-600', // Smoky
+    default: 'bg-gray-200', // Default fallback
 };
 
-
 export default function AussieCapitals() {
-    const [citiesWeather, setCitiesWeather] = useState([]);
-    const [error, setError] = useState(null);
+    const [citiesWeather, setCitiesWeather] = useState([]); // State to store weather data
+    const [error, setError] = useState(null); // State to handle errors
 
     useEffect(() => {
-        /**
-         * Fetches weather data for all Australian capitals.
-         * Utilizes caching to minimize API requests and improve performance.
-         */
         async function fetchAll() {
-            // Check if weather data is cached in localStorage
-            const cachedData = localStorage.getItem('aussieCapitalsWeather');
-            if (cachedData) {
-                const parsedData = JSON.parse(cachedData);
-                // Define cache validity duration (e.g., 1 hour)
-                const oneHour = 60 * 60 * 1000;
-                if (new Date().getTime() - parsedData.timestamp < oneHour) {
-                    setCitiesWeather(parsedData.data);
-                    return;
-                }
-            }
-
+            console.log('Starting fetchAll');
             try {
-                // Create an array of promises for fetching weather data concurrently
                 const requests = AUSSIE_CAPITALS.map(city =>
-                    axios.get(`${BACKEND_WEATHER}?city=${encodeURIComponent(city)}`)
-                        .then(resp => ({ city, data: resp.data }))
-                        .catch(err => ({ city, error: err }))
+                    axios
+                        .get(`${BACKEND_WEATHER}?city=${encodeURIComponent(city)}`)
+                        .then(resp => {
+                            console.log(`Success for ${city}:`, resp.data);
+                            return { city, data: resp.data };
+                        })
+                        .catch(err => {
+                            console.error(`Error for ${city}:`, err);
+                            return { city, error: err };
+                        })
                 );
-
-                // Execute all requests concurrently
+    
                 const results = await Promise.all(requests);
-
-                // Filter out successful results
-                const successfulResults = results.filter(result => !result.error);
+                console.log('Fetch results:', results);
+    
+                const successfulResults = results.filter(r => !r.error);
                 setCitiesWeather(successfulResults);
-
-                // Identify any failed requests
-                const failedResults = results.filter(result => result.error);
-                if (failedResults.length > 0) {
-                    console.error('Some cities failed to fetch:', failedResults.map(r => r.city));
-                    setError('Failed to load weather data for some cities.');
+    
+                if (successfulResults.length === 0) {
+                    setError('Failed to fetch weather data for all cities.');
                 }
-
-                // Cache the successful results with a timestamp
-                localStorage.setItem('aussieCapitalsWeather', JSON.stringify({
-                    timestamp: new Date().getTime(),
-                    data: successfulResults,
-                }));
             } catch (err) {
-                console.error('Aussie capitals fetch error:', err);
+                console.error('General fetch error:', err);
                 setError('Failed to load Aussie capitals weather.');
             }
         }
-
-        fetchAll();
+    
+        fetchAll(); // Call the function on component mount
     }, []);
+    
 
-    // Display error message if any
+    // Render error message if encountered
     if (error) {
         return <div className="text-red-500 mt-4">{error}</div>;
     }
 
-    // Display loading indicator while data is being fetched
+    // Render loading state while data is being fetched
     if (!citiesWeather.length) {
         return <div className="text-gray-600 mt-4">Loading Aussie capitals weather...</div>;
     }
 
+    // Render weather cards for all cities
     return (
         <div className="mt-4 bg-white rounded shadow p-4">
             <h2 className="text-lg font-bold mb-2">Aussie Capitals Weather</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {citiesWeather.map(({ city, data }) => {
-                    // 获取天气条件
-                    const condition = data?.current?.weather?.[0]?.main || 'default';
-                    const cardBgColor = weatherColorMap[condition] || weatherColorMap.default;
+                    const condition = data?.current?.weather?.[0]?.main || 'default'; // Weather condition
+                    const cardBgColor = weatherColorMap[condition] || weatherColorMap.default; // Card background color
 
                     return (
-                        <div 
-                            key={city} 
+                        <div
+                            key={city}
                             className={`rounded p-4 shadow-md text-white ${cardBgColor} flex items-center`}
                         >
-                            {/* 显示天气图标 */}
-                            {data.current && data.current.weather && data.current.weather[0] && (
+                            {/* Weather icon */}
+                            {data.current?.weather?.[0] && (
                                 <div className="flex-shrink-0 w-8 h-8 bg-white/50 rounded-full shadow-lg flex items-center justify-center mr-4">
                                     <img
                                         src={`${OPENWEATHER_ICON_URL}${data.current.weather[0].icon}@2x.png`}
@@ -136,7 +108,7 @@ export default function AussieCapitals() {
                                     />
                                 </div>
                             )}
-                            {/* 显示天气信息 */}
+                            {/* Weather details */}
                             <div>
                                 <h3 className="font-bold text-lg">{city}</h3>
                                 {data.current ? (
@@ -161,7 +133,6 @@ export default function AussieCapitals() {
                         </div>
                     );
                 })}
-
             </div>
         </div>
     );
