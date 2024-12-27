@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 
 const AUTOCOMPLETE_URL = 'http://localhost:8080/api/maps/autocomplete';
-const PLACE_SELECT_URL = 'http://localhost:8080/api/maps/select';
+const WEATHER_URL = 'http://localhost:8080/api/weather';
 
 export default function SearchBar({ onWeatherFetched }) {
   const [inputValue, setInputValue] = useState('');
@@ -12,68 +12,87 @@ export default function SearchBar({ onWeatherFetched }) {
 
   const containerRef = useRef(null);
 
-  // Fetch fuzzy suggestions from /api/maps/autocomplete
+  // Fetch autocomplete suggestions
   const fetchAutocomplete = async (query) => {
     if (!query) {
       setSuggestions([]);
       return;
     }
+
     try {
       const resp = await axios.get(`${AUTOCOMPLETE_URL}?input=${encodeURIComponent(query)}`);
-      setSuggestions(resp.data);
+      setSuggestions(resp.data); // [{ description, place_id, suburb, city, postcode }]
     } catch (err) {
       console.error('Autocomplete error:', err);
+      setError('Failed to fetch suggestions');
     }
   };
 
-  // Handle input change
+  // Handle input changes
   const handleChange = (e) => {
-    const val = e.target.value;
-    setInputValue(val);
-    setError(null);
+    const value = e.target.value;
+    setInputValue(value);
     setShowDropdown(true);
+    setError(null);
 
-    if (val.trim()) {
-      fetchAutocomplete(val.trim());
+    if (value.trim()) {
+      fetchAutocomplete(value.trim());
     } else {
       setSuggestions([]);
     }
   };
 
-  // Close dropdown on outside click
-  useEffect(() => {
-    function handleOutsideClick(e) {
-      if (containerRef.current && !containerRef.current.contains(e.target)) {
-        setShowDropdown(false);
-      }
-    }
-    document.addEventListener('mousedown', handleOutsideClick);
-    return () => document.removeEventListener('mousedown', handleOutsideClick);
-  }, []);
-
-  // When user selects a suggestion
+  // Handle suggestion selection
   const handleSelect = async (suggestion) => {
     setInputValue(suggestion.description);
     setShowDropdown(false);
     setSuggestions([]);
 
+    // Extract information from the selected suggestion
+    const { suburb, city, postcode } = suggestion;
+
     try {
       setError(null);
-      const url = `${PLACE_SELECT_URL}?place_id=${encodeURIComponent(suggestion.place_id)}`;
-      const resp = await axios.get(url);
-      onWeatherFetched?.(resp.data);
+
+      // Determine parameters to send to the weather API
+      let weatherParams = {};
+      if (suburb) {
+        weatherParams = { suburb };
+      } else if (postcode) {
+        weatherParams = { postcode };
+      } else if (city) {
+        weatherParams = { city };
+      } else {
+        setError('Unable to determine location details');
+        return;
+      }
+
+      // Fetch weather data
+      const resp = await axios.get(`${WEATHER_URL}`, { params: weatherParams });
+      onWeatherFetched?.(resp.data); // Pass the fetched weather data back to the parent
     } catch (err) {
-      console.error('Place select error:', err);
-      setError(err.response?.data?.error || 'Failed to fetch weather');
+      console.error('Weather fetch error:', err);
+      setError('Failed to fetch weather data');
     }
   };
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    const handleOutsideClick = (e) => {
+      if (containerRef.current && !containerRef.current.contains(e.target)) {
+        setShowDropdown(false);
+      }
+    };
+    document.addEventListener('mousedown', handleOutsideClick);
+    return () => document.removeEventListener('mousedown', handleOutsideClick);
+  }, []);
 
   return (
     <div className="relative w-full" ref={containerRef}>
       <input
         type="text"
         className="w-full p-2 border border-gray-300 rounded focus:outline-none"
-        placeholder="Start typing location..."
+        placeholder="Search location..."
         value={inputValue}
         onChange={handleChange}
         onFocus={() => setShowDropdown(true)}
@@ -86,7 +105,10 @@ export default function SearchBar({ onWeatherFetched }) {
               className="px-3 py-2 hover:bg-gray-100 cursor-pointer"
               onClick={() => handleSelect(item)}
             >
-              {item.description}
+              <div>{item.description}</div>
+              <div className="text-sm text-gray-500">
+                {item.suburb || 'N/A'}, {item.city || 'N/A'}, {item.postcode || 'N/A'}
+              </div>
             </div>
           ))}
         </div>
