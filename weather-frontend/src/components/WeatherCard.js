@@ -19,9 +19,9 @@ import React from 'react';
  */
 function getWeatherIcon(mainWeather) {
   const condition = mainWeather?.toLowerCase();
-  if (condition === 'clear') return 'sunny.jpg';
-  if (condition === 'clouds') return 'cloudy.jpg';
-  if (['rain', 'drizzle', 'thunderstorm'].includes(condition)) return 'rainy.jpg';
+  if (condition === 'clear') return 'public/sunny.jpg';
+  if (condition === 'clouds') return 'public/cloudy.jpg';
+  if (['rain', 'drizzle', 'thunderstorm'].includes(condition)) return 'public/rainy.jpg';
   return 'default.jpg';
 }
 

@@ -69,7 +69,7 @@ export default function SearchBar({ onWeatherFetched }) {
   };
 
   return (
-    <div className="relative w-full max-w-sm" ref={containerRef}>
+    <div className="relative w-full" ref={containerRef}>
       <input
         type="text"
         className="w-full p-2 border border-gray-300 rounded focus:outline-none"

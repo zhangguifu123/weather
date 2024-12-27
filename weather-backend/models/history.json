@@ -1,1 +1,2531 @@
-[]
+[
+  {
+    "timestamp": "2024-12-27T06:44:36.375Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 300.97,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:44:36.573Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 300.97,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:44:57.889Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 292.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:44:58.748Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 303.25,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:44:59.577Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 298.62,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:45:00.410Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 293.76,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:45:01.156Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 291.98,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:45:02.088Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 299.2,
+    "weather_description": "light rain"
+  },
+  {
+    "timestamp": "2024-12-27T06:45:02.946Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 300.2,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:07.934Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 300.36,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.127Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 300.36,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.229Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 292.92,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.420Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 292.92,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.624Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 303.15,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.828Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 303.15,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:08.832Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 298.62,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.031Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 298.62,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.035Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 293.79,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.233Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 293.79,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.260Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 291.98,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.446Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 291.98,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.456Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 299.2,
+    "weather_description": "light rain"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.647Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 299.2,
+    "weather_description": "light rain"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.657Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 300.14,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:09.912Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 300.14,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T06:48:31.821Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 292.66,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:36.856Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.94,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:36.938Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.94,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:37.425Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 290.49,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:38.973Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 299.04,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:40.125Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 296.36,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:41.584Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 291.24,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:41.749Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.82,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:43.099Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.61,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:44.356Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.03,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:17:45.886Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 292.08,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.009Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.94,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.027Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.94,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.220Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 290.49,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.226Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 290.49,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.413Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 299.04,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.416Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 299.04,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.620Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 296.36,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.656Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 296.36,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.913Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 291.24,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:30.920Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 291.24,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.116Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.61,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.121Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.61,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.321Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.03,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.323Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.03,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.519Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 292.08,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:18:31.521Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 292.08,
+    "weather_description": "few clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:27.512Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:27.522Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:28.533Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:28.540Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:29.326Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:29.538Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:30.235Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.51,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:30.443Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.51,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:31.004Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.88,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:31.231Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.88,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:31.933Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:32.015Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:32.683Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:32.760Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:33.465Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:33.499Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:54:34.254Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.46,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:08.889Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:08.994Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.131Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.206Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.400Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.462Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.641Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.51,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:09.667Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.51,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.120Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.88,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.129Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.88,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.396Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.451Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.591Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.641Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.786Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:10.829Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:11.628Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.46,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:31.635Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:31.648Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:31.859Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:31.874Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.132Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.138Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.336Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.4,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.341Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.4,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.533Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.547Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.735Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.750Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.930Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:32.935Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:33.121Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:33.123Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:35.479Z",
+    "query": "2444,AU",
+    "lat": -31.3974,
+    "lon": 152.836,
+    "region_name": "AU",
+    "current_temp": 298.79,
+    "weather_description": "light rain"
+  },
+  {
+    "timestamp": "2024-12-27T10:55:55.549Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.46,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.495Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.524Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.707Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.716Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.907Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:24.908Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.9,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.173Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.4,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.177Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.4,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.364Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.369Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.615Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.637Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.819Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:25.822Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:26.044Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:26.063Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:27.064Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.46,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.315Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.338Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.546Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.550Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.835Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:37.838Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.212Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.08,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.229Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.08,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.418Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.429Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.82,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.632Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.651Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.825Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:38.841Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:39.017Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:56:39.030Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.62,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:26.765Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:26.815Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:26.840Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:26.877Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:26.889Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:27.110Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.042Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.399Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.445Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.489Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.553Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:29.882Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:31.194Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:31.660Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:31.823Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:31.863Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:31.969Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.113Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.348Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.355Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.559Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.586Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:32.819Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:33.033Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:33.125Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:33.351Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:33.401Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:33.988Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:34.645Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:36.051Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:37.461Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:37.611Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:37.683Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.237Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.274Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.303Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.618Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.639Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.654Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:38.871Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:40.302Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:40.761Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:40.809Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:41.357Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:41.606Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:41.738Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:42.625Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:42.678Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:45.813Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:46.408Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:48.358Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:48.452Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.039Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.061Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.099Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.406Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.457Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.683Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.689Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.823Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:49.932Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:50.067Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:50.194Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:50.866Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:50.879Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.025Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.119Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.132Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.175Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.228Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.264Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.540Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.549Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.553Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.558Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.606Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.816Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.822Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.829Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.851Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:51.916Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:52.133Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:52.144Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:52.148Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.063Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.217Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.242Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.256Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.360Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.496Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T10:59:53.623Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:02.974Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:03.361Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:03.631Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:03.987Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.241Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.85,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.252Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.458Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.469Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.97,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.824Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.85,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:04.837Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.141Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.156Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 295.02,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.363Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.77,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.568Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.776Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 300.86,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:00:05.977Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.71,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:05:29.493Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.37,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:06:08.363Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 290.37,
+    "weather_description": "overcast clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:06:24.168Z",
+    "query": "2020,AU",
+    "lat": -33.939,
+    "lon": 151.1862,
+    "region_name": "AU",
+    "current_temp": 295.17,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:06:35.976Z",
+    "query": "2533,AU",
+    "lat": -34.6516,
+    "lon": 150.7756,
+    "region_name": "AU",
+    "current_temp": 293.72,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:41.248Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.83,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:41.270Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.83,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:42.157Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.6,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:42.249Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.6,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:42.892Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.67,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:43.073Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.67,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:43.798Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 294.26,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:43.806Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 294.26,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:44.589Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.78,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:44.607Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.78,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:45.340Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:45.350Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:46.108Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.1,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:46.122Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.1,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:46.939Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.42,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:24:46.981Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.42,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:12.222Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.83,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:12.231Z",
+    "query": "Sydney",
+    "lat": -33.8698439,
+    "lon": 151.2082848,
+    "region_name": "New South Wales",
+    "current_temp": 294.83,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:13.011Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.62,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:13.142Z",
+    "query": "Melbourne",
+    "lat": -37.8142176,
+    "lon": 144.9631608,
+    "region_name": "Victoria",
+    "current_temp": 289.62,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:13.891Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.67,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:13.961Z",
+    "query": "Brisbane",
+    "lat": -27.4689682,
+    "lon": 153.0234991,
+    "region_name": "Queensland",
+    "current_temp": 298.67,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:14.816Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 294.15,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:14.848Z",
+    "query": "Perth",
+    "lat": -31.9558964,
+    "lon": 115.8605801,
+    "region_name": "Western Australia",
+    "current_temp": 294.15,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:15.634Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.78,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:15.639Z",
+    "query": "Adelaide",
+    "lat": -34.9281805,
+    "lon": 138.5999312,
+    "region_name": "South Australia",
+    "current_temp": 290.78,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:16.486Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:16.600Z",
+    "query": "Hobart",
+    "lat": -42.8825088,
+    "lon": 147.3281233,
+    "region_name": "Tasmania",
+    "current_temp": 287.69,
+    "weather_description": "broken clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:17.490Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.1,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:17.494Z",
+    "query": "Darwin",
+    "lat": -12.46044,
+    "lon": 130.8410469,
+    "region_name": "AU",
+    "current_temp": 301.1,
+    "weather_description": "clear sky"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:18.356Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.34,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:18.384Z",
+    "query": "Canberra",
+    "lat": -35.2975906,
+    "lon": 149.1012676,
+    "region_name": "AU",
+    "current_temp": 290.34,
+    "weather_description": "scattered clouds"
+  },
+  {
+    "timestamp": "2024-12-27T11:29:31.626Z",
+    "query": "3030,AU",
+    "lat": -37.8974,
+    "lon": 144.7444,
+    "region_name": "AU",
+    "current_temp": 289.94,
+    "weather_description": "overcast clouds"
+  }
+]
