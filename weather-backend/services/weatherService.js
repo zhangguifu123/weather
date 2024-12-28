@@ -5,6 +5,18 @@ const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY || '';
 // Define units for temperature
 const UNITS = 'metric';
 
+// Australian capital cities
+const capitals = [
+    { city: 'Sydney', lat: -33.8688, lon: 151.2093 },
+    { city: 'Melbourne', lat: -37.8136, lon: 144.9631 },
+    { city: 'Brisbane', lat: -27.4698, lon: 153.0251 },
+    { city: 'Perth', lat: -31.9505, lon: 115.8605 },
+    { city: 'Adelaide', lat: -34.9285, lon: 138.6007 },
+    { city: 'Hobart', lat: -42.8821, lon: 147.3272 },
+    { city: 'Darwin', lat: -12.4611, lon: 130.8418 },
+    { city: 'Canberra', lat: -35.2809, lon: 149.1300 }
+  ];
+
 /**
  * Fetches weather data for a given city.
  *
@@ -15,31 +27,33 @@ const UNITS = 'metric';
 async function getWeatherByCity(city) {
   const geoUrl = `http://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(city)}&limit=1&appid=${OPENWEATHER_API_KEY}`;
   const geoResp = await axios.get(geoUrl);
-
+  
   if (!geoResp.data || geoResp.data.length === 0) {
     throw new Error(`City not found: ${city}`);
   }
+  const { lat, lon, name, state } = geoResp.data[0];
+  
+  const oneCallUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},au&appid=${OPENWEATHER_API_KEY}`;
 
-  const { lat, lon, name, state, country } = geoResp.data[0];
-  const oneCallUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=${UNITS}&exclude=minutely,hourly,daily,alerts&appid=${OPENWEATHER_API_KEY}`;
-  const oneCallResp = await axios.get(oneCallUrl);
+  const weatherResp = await axios.get(oneCallUrl);
+  const { main, weather } = weatherResp.data;
+  // Format the data into the desired structure
+  const formattedData = {
+        timestamp: new Date().toISOString(),
+        query: city,
+        lat,
+        lon,
+        state: state || weatherResp.data.sys.country, // Default to country if state is not available
+        suburb: name,
+        temp: main.temp,
+        weather_main: weather[0]?.main,
+        weather_description: weather[0]?.description,
+  };
 
   // Save to history
-  await historyModel.saveSearch({
-    timestamp: new Date().toISOString(),
-    query: city,
-    lat,
-    lon,
-    state: state || country,
-    suburb: name,
-    ...oneCallResp.data.current,
-  });
+  await historyModel.saveSearch(formattedData);
 
-  return {
-    location: name,
-    state: state || country,
-    ...oneCallResp.data,
-  };
+  return formattedData;
 }
 
 /**
@@ -79,7 +93,38 @@ async function getWeatherByZip(zip) {
   };
 }
 
+/**
+ * Fetches weather data for all Australian capital cities.
+ *
+ * @returns {Array} - Weather data for all capital cities.
+ */
+async function getCapitalsWeather() {
+    return Promise.all(
+      capitals.map(async ({ city, lat, lon }) => {
+        const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=${UNITS}&appid=${OPENWEATHER_API_KEY}`;
+        const weatherResp = await axios.get(weatherUrl);
+  
+        const { main, weather } = weatherResp.data;
+  
+        return {
+          timestamp: new Date().toISOString(),
+          query: city,
+          lat,
+          lon,
+          state: 'AU',
+          suburb: city,
+          temp: main.temp,
+          weather_main: weather[0]?.main,
+          weather_description: weather[0]?.description,
+        };
+      })
+    );
+  }
+
 module.exports = {
   getWeatherByCity,
   getWeatherByZip,
+  getCapitalsWeather,
 };
+
+

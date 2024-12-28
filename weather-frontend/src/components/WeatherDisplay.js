@@ -73,17 +73,13 @@ export default function WeatherDisplay({ data }) {
                 backgroundPosition: 'center',
             }}
         >
-            {/* 添加半透明遮罩层 */}
+
             <div className="absolute inset-0 bg-black bg-opacity-50 rounded"></div>
 
-            {/* 内容区域 */}
+
             <div className="relative">
                 <h2 className="text-2xl font-bold mb-2">{location || 'Unknown Location'}</h2>
-                {/* {region && (
-                    <p className="text-sm mb-2">
-                        Region: {region}
-                    </p>
-                )} */}
+
                 {current ? (
                     <div className="flex items-center">
 
