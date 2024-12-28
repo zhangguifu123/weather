@@ -70,7 +70,7 @@ export default function AussieCapitals() {
                                 <img
                                     src={`${OPENWEATHER_ICON_URL}${cityWeather.icon || '01d'}@2x.png`}
                                     alt={weather_description}
-                                    className="w-4 h-4 drop-shadow-md"
+                                    className="w-8 h-8 drop-shadow-md"
                                 />
                             </div>
                             {/* Weather details */}

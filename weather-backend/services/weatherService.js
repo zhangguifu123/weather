@@ -36,7 +36,7 @@ async function getWeatherByCity(city) {
   const oneCallUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},au&appid=${OPENWEATHER_API_KEY}`;
 
   const weatherResp = await axios.get(oneCallUrl);
-  const { main, weather } = weatherResp.data;
+  const { main, weather, wind} = weatherResp.data;
   // Format the data into the desired structure
   const formattedData = {
         timestamp: new Date().toISOString(),
@@ -46,8 +46,12 @@ async function getWeatherByCity(city) {
         state: state || weatherResp.data.sys.country, // Default to country if state is not available
         suburb: name,
         temp: main.temp,
+        humidity: main.humidity,
+        wind_speed: wind.speed,
+        wind_deg: wind.deg, 
         weather_main: weather[0]?.main,
         weather_description: weather[0]?.description,
+        icon: weather[0]?.icon,
   };
 
   // Save to history
@@ -71,26 +75,33 @@ async function getWeatherByZip(zip) {
     throw new Error(`Postal code not found: ${zip}`);
   }
 
-  const { lat, lon, name, state, country } = zipResp.data;
-  const oneCallUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${lat}&lon=${lon}&units=${UNITS}&exclude=minutely,hourly,daily,alerts&appid=${OPENWEATHER_API_KEY}`;
-  const oneCallResp = await axios.get(oneCallUrl);
+  const { lat, lon, name, state } = zipResp.data;
+  
+  const oneCallUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},au&appid=${OPENWEATHER_API_KEY}`;
+
+  const weatherResp = await axios.get(oneCallUrl);
+  const { main, weather, wind} = weatherResp.data;
+  // Format the data into the desired structure
+  const formattedData = {
+        timestamp: new Date().toISOString(),
+        query: city,
+        lat,
+        lon,
+        state: state || weatherResp.data.sys.country, // Default to country if state is not available
+        suburb: name,
+        temp: main.temp,
+        humidity: main.humidity,
+        wind_speed: wind.speed,
+        wind_deg: wind.deg, 
+        weather_main: weather[0]?.main,
+        weather_description: weather[0]?.description,
+        icon: weather[0]?.icon,
+  };
 
   // Save to history
-  await historyModel.saveSearch({
-    timestamp: new Date().toISOString(),
-    query: zip,
-    lat,
-    lon,
-    state: state || country,
-    suburb: name,
-    ...oneCallResp.data.current,
-  });
+  await historyModel.saveSearch(formattedData);
 
-  return {
-    location: name,
-    state: state || country,
-    ...oneCallResp.data,
-  };
+  return formattedData;
 }
 
 /**
@@ -104,7 +115,7 @@ async function getCapitalsWeather() {
         const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=${UNITS}&appid=${OPENWEATHER_API_KEY}`;
         const weatherResp = await axios.get(weatherUrl);
   
-        const { main, weather } = weatherResp.data;
+        const { main, weather, wind } = weatherResp.data;
   
         return {
           timestamp: new Date().toISOString(),
@@ -115,7 +126,11 @@ async function getCapitalsWeather() {
           suburb: city,
           temp: main.temp,
           weather_main: weather[0]?.main,
+          humidity: main.humidity,
+          wind_speed: wind.speed,
+          wind_deg: wind.deg, 
           weather_description: weather[0]?.description,
+          icon: weather[0]?.icon,
         };
       })
     );
