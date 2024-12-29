@@ -39,6 +39,7 @@ export default function AussieCapitals() {
 
         fetchCapitalsWeather(); // Call the function on component mount
     }, []);
+    
 
     // Render error message if encountered
     if (error) {
