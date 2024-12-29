@@ -45,6 +45,7 @@ router.get('/capitals', async (req, res) => {
       console.error('weatherController error (capitals):', error.message);
       return res.status(500).json({ error: error.message });
     }
-  });
-  
+    
+});
+
 module.exports = router;

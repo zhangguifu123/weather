@@ -1,3 +1,14 @@
+// WeatherDisplay.js
+
+/**
+ * WeatherDisplay Component
+ *
+ * This React component presents detailed weather information for a specific location.
+ * It includes current weather conditions, temperature, humidity, wind details,
+ * weather descriptions, and daily forecasts with corresponding weather icons.
+ * The component also dynamically changes the background image based on weather conditions.
+ */
+
 import React from 'react';
 
 // Base URL for OpenWeather icons
