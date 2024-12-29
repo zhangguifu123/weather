@@ -34,4 +34,17 @@ router.get('/', async (req, res) => {
   }
 });
 
+/**
+ * Fetches weather for all Australian capital cities.
+ */
+router.get('/capitals', async (req, res) => {
+    try {
+      const capitalsWeather = await weatherService.getCapitalsWeather();
+      return res.json(capitalsWeather);
+    } catch (error) {
+      console.error('weatherController error (capitals):', error.message);
+      return res.status(500).json({ error: error.message });
+    }
+  });
+  
 module.exports = router;
