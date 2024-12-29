@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
 // Backend API endpoint for fetching Australian capitals weather
-const BACKEND_CAPITALS_WEATHER = 'http://54.206.9.239:8080/api/weather/capitals'; // Replace localhost with backend's public IP
+const BACKEND_CAPITALS_WEATHER = 'http://3.25.106.176:8080/api/weather/capitals'; // Replace localhost with backend's public IP
 
 // Base URL for OpenWeather icons
 const OPENWEATHER_ICON_URL = 'http://openweathermap.org/img/wn/';
