@@ -1,40 +1,80 @@
 [
   {
-    "timestamp": "2024-12-27T15:38:30.426Z",
-    "query": "Sydney",
-    "lat": -33.8698439,
-    "lon": 151.2082848,
+    "timestamp": "2024-12-28T14:07:03.046Z",
+    "query": "Mascot",
+    "lat": -33.9289562,
+    "lon": 151.1951782,
     "state": "New South Wales",
-    "suburb": "Sydney",
-    "dt": 1735313910,
-    "sunrise": 1735325090,
-    "sunset": 1735376895,
-    "temp": 20.59,
-    "feels_like": 20.64,
-    "pressure": 1008,
-    "humidity": 74,
-    "dew_point": 15.8,
-    "uvi": 0,
-    "clouds": 75,
-    "visibility": 10000,
-    "wind_speed": 7.72,
-    "wind_deg": 170,
-    "weather": [
-      {
-        "id": 803,
-        "main": "Clouds",
-        "description": "broken clouds",
-        "icon": "04n"
-      }
-    ]
+    "suburb": "Mascot",
+    "temp": 292.6,
+    "humidity": 78,
+    "wind_speed": 3.2,
+    "wind_deg": 350,
+    "weather_main": "Clear",
+    "weather_description": "clear sky",
+    "icon": "01n"
   },
   {
-    "timestamp": "2024-12-27T15:38:34.370Z",
+    "timestamp": "2024-12-28T14:08:40.106Z",
+    "query": "Point Cook",
+    "lat": -37.9064862,
+    "lon": 144.7533059,
+    "state": "Victoria",
+    "suburb": "Point Cook",
+    "temp": 287.3,
+    "humidity": 72,
+    "wind_speed": 4.31,
+    "wind_deg": 260,
+    "weather_main": "Clear",
+    "weather_description": "clear sky",
+    "icon": "01n"
+  },
+  {
+    "timestamp": "2024-12-28T14:09:17.555Z",
     "query": "Perth",
     "lat": -31.9558964,
     "lon": 115.8605801,
     "state": "Western Australia",
     "suburb": "Perth",
+<<<<<<< HEAD
+    "temp": 295.41,
+    "humidity": 53,
+    "wind_speed": 5.66,
+    "wind_deg": 180,
+    "weather_main": "Clear",
+    "weather_description": "clear sky",
+    "icon": "01n"
+  },
+  {
+    "timestamp": "2024-12-28T14:09:49.759Z",
+    "query": "Mascot",
+    "lat": -33.9289562,
+    "lon": 151.1951782,
+    "state": "New South Wales",
+    "suburb": "Mascot",
+    "temp": 292.6,
+    "humidity": 78,
+    "wind_speed": 3.2,
+    "wind_deg": 350,
+    "weather_main": "Clear",
+    "weather_description": "clear sky",
+    "icon": "01n"
+  },
+  {
+    "timestamp": "2024-12-28T14:10:10.506Z",
+    "query": "Mascot",
+    "lat": -33.9289562,
+    "lon": 151.1951782,
+    "state": "New South Wales",
+    "suburb": "Mascot",
+    "temp": 293.07,
+    "humidity": 77,
+    "wind_speed": 3.13,
+    "wind_deg": 349,
+    "weather_main": "Clear",
+    "weather_description": "clear sky",
+    "icon": "01n"
+=======
     "dt": 1735313914,
     "sunrise": 1735247439,
     "sunset": 1735298661,
@@ -145,5 +185,6 @@
         "icon": "04n"
       }
     ]
+>>>>>>> main
   }
 ]

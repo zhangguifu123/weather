@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const HISTORY_URL = 'http://54.206.9.239:8080/api/history';
+const HISTORY_URL = 'http://3.25.106.176:8080/api/history';
 
 /**
  * HistoryList Component
